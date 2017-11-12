@@ -1,0 +1,15 @@
+[
+  {
+    "name": "tsalisbury_cni_app",
+    "image": "498600376953.dkr.ecr.eu-west-1.amazonaws.com/tsalisbury_cni_app",
+    "cpu": 10,
+    "memory": 128,
+    "essential": true,
+    "portMappings": [
+      {
+        "containerPort": 8080,
+        "hostPort": 80
+      }
+    ]
+  }
+]
